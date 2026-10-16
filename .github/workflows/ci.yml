@@ -11,12 +11,12 @@ permissions:
 
 jobs:
   build-and-audit:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 40
     env:
       LEAN_NUM_THREADS: 2
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Build with the pinned Lean and Mathlib versions
         uses: leanprover/lean-action@v1
         with:
