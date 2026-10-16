@@ -1,4 +1,4 @@
-name = "lean_uct"
+name = "algebraic_universal_coefficient_theorem"
 version = "0.1.0"
 defaultTargets = ["UniversalCoefficient"]
 

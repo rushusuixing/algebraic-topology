@@ -111,7 +111,7 @@
    "configFile": "lakefile.toml"
   }
  ],
- "name": "lean_uct",
+ "name": "algebraic_universal_coefficient_theorem",
  "lakeDir": ".lake",
  "fixedToolchain": false
 }

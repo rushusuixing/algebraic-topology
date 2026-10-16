@@ -1,4 +1,4 @@
-name: Lean CI
+name: Algebraic UCT CI
 
 on:
   push:
@@ -24,5 +24,7 @@ jobs:
           build: true
           use-mathlib-cache: true
           use-github-cache: false
+          lake-package-directory: algebraic-universal-coefficient-theorem
       - name: Check the UCT declarations and transitive axioms
+        working-directory: algebraic-universal-coefficient-theorem
         run: python3 scripts/check_axioms.py
