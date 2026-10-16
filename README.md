@@ -1,8 +1,32 @@
 # algebraic-topology
 
+## English
+
+Formalizations of algebraic topology and its algebraic foundations in Lean 4 and Mathlib. Each subproject maintains its own Lake configuration and pinned dependency versions.
+
+### Subprojects
+
+- [algebraic-universal-coefficient-theorem](algebraic-universal-coefficient-theorem/README.md): the algebraic universal coefficient theorem for homology over a PID, including the short exact sequence, existence of a splitting, and a noncanonical direct sum decomposition.
+
+```text
+algebraic-topology/
+├── algebraic-universal-coefficient-theorem/
+│   ├── UniversalCoefficient/
+│   ├── lakefile.toml
+│   ├── lean-toolchain
+│   └── README.md
+├── .github/workflows/
+├── LICENSE
+└── NOTICE
+```
+
+See the subproject README for build and axiom audit commands. GitHub Actions runs the build and axiom audit in the subproject directory.
+
+## 中文
+
 使用 Lean 4 与 Mathlib 形式化代数拓扑及其代数基础。各子项目独立维护 Lake 配置和固定依赖版本。
 
-## 子项目
+### 子项目
 
 - [algebraic-universal-coefficient-theorem](algebraic-universal-coefficient-theorem/README.md)：PID 上的代数同调泛系数定理，包括短正合列、存在分裂与非规范直和形式。
 
