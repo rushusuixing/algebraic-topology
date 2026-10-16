@@ -1,0 +1,6 @@
+import UniversalCoefficient.AlgebraicUCT
+#print axioms UniversalCoefficient.algebraic_uct
+#print axioms UniversalCoefficient.algebraicUCT_shortExact
+#print axioms UniversalCoefficient.algebraicUCTSplitting
+#print axioms UniversalCoefficient.algebraicUCTDirectSumIso
+#check @UniversalCoefficient.algebraic_uct

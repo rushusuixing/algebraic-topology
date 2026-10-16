@@ -1,0 +1,8 @@
+algebraic-topology
+Copyright 2026 rushusuixing
+
+Licensed under the Apache License, Version 2.0.
+
+This project depends on mathlib4, developed by the mathlib community and
+licensed under Apache-2.0. Mathlib is obtained as a pinned Lake dependency;
+its source and build artifacts are not vendored in this repository.
